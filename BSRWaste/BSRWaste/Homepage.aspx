@@ -36,7 +36,7 @@
         
         .txt {
               color: #fff;
-              font-size:20px;
+              font-size:30px;
              padding-bottom:20px;
             font-weight:bold;
             position: relative;
@@ -245,36 +245,36 @@
             animation-name: image3;
             animation-duration: 40s;
         }
-.newsTxt{
+        .newsTxt{
             padding:5px 30px;
         }
-.newsBtn{
+        .newsBtn{
             padding:5px 10px;
             background-color:black;
             color:white;
             border:1px solid black;
         }
-#headerDiv{
+        #headerDiv{
             width:50%;
             margin:auto;
             padding-top:100px;
            
         }
 
-.heroHeading{
+        .heroHeading{
              position: relative;
             animation-name: hero;
             animation-duration: 2s;
              animation-iteration-count: 1;
         }
-@keyframes hero {
+        @keyframes hero {
              0%   { left:-200px; top:0px; }
              
              50%  { left:0px; top:0px;}
         
         }
 
-#contact{
+        #contact{
              margin-top:10px;
              border:0px;
              padding:8px 10px;
@@ -283,25 +283,25 @@
              border-radius:50px;
         }
 
-.divImage1{
+        .divImage1{
            position: relative;
             animation-name: hero;
             animation-duration: 10s;
              animation-iteration-count: 1;
         }
-.divImage4{
+        .divImage4{
            position: relative;
             animation-name: hero;
             animation-duration: 15s;
              animation-iteration-count: 1;
         }
-.divImage3{
+        .divImage3{
            position: relative;
             animation-name: image3;
             animation-duration: 10s;
              animation-iteration-count: 1;
         }
-@keyframes image3{
+        @keyframes image3{
             0%   { left:200px; top:0px; }
 
                     50% {
@@ -310,52 +310,52 @@
                     }
         
         }
-.divImage6{
+        .divImage6{
            position: relative;
             animation-name: image3;
             animation-duration: 15s;
              animation-iteration-count: 1;
         }
-.allHeadings{
-     position: relative;
+        .allHeadings{
+            position: relative;
             animation-name: allHeading;
             animation-duration: 10s;
              animation-iteration-count: 1;
 
 
-}
-@keyframes allHeading{
+        }
+        @keyframes allHeading{
             0%   { left:-200px; top:0px; }
              
              50%  { left:0px; top:0px;}
         
         }
-.heading2{
+        .heading2{
             animation-duration: 20s;
 
-}
-.heading3{
+        }
+        .heading3{
             animation-duration: 30s;
 
-}
-.divImage2{
-     position: relative;
+        }
+        .divImage2{
+             position: relative;
             animation-name: image2;
             animation-duration: 10s;
              animation-iteration-count: 1;
-}
-@keyframes image2{
+        }
+        @keyframes image2{
             0%   { top:-200px; bottom:0px; }
              
              50%  { top:0px; bottom:0px;}
         
-}
-.divImage5{
-    position: relative;
+        }
+        .divImage5{
+            position: relative;
             animation-name: image2;
             animation-duration: 20s;
              
-}
+        }
 /***********************************************************************************/   
 
       
@@ -368,14 +368,17 @@
         <div id="header" >
         <div id="mainDiv">
         <div id="nav">
-             <asp:Image ID="logo" runat="server" ImageUrl="./images/logo 2.png" Width="300px" Height="300px" />            
+             <asp:Image ID="logo" runat="server" ImageUrl="./images/logo 4.png" Width="200px" Height="150px" />            
             <asp:BulletedList ID="navigation" runat="server" DisplayMode="HyperLink" CssClass="navLists" >               
                 <asp:ListItem Value="Homepage.aspx">HOME</asp:ListItem>
-                <asp:ListItem  Value="package.aspx" >PACKAGE</asp:ListItem> 
-                <asp:ListItem  Value="destination.aspx">DESTINATION</asp:ListItem> 
-                <asp:ListItem  Value="contactus.aspx">CONTACT US</asp:ListItem>  
+                <asp:ListItem  Value="collectionareas.aspx" >COLLECTION AREAS </asp:ListItem> 
+                <asp:ListItem  Value="recycle.aspx">RECYLE</asp:ListItem> 
+                <asp:ListItem  Value="blog.aspx">BLOG</asp:ListItem>  
                 
-                <asp:ListItem  Value="login.aspx" >lOGIN</asp:ListItem> 
+                <asp:ListItem  Value="login.aspx" >
+                                                        <asp:Button ID="Button1" runat="server" Text="SUBMIT" Class="submitBtn"  /> 
+
+                </asp:ListItem> 
                 
 
 
